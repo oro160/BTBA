@@ -1,0 +1,10 @@
+title: Boston Taiwanese Biotechnology Association
+brand: BTBA
+sass:
+    load_paths:
+        - _scss
+        - node_modules
+plugins:
+    - jekyll-redirect-from
+exclude: []
+repository: jekyll-test/Yu-AnChen
