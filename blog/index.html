@@ -1,0 +1,33 @@
+---
+active: blog
+layout: default
+---
+
+<div class="row align-items-center py-auto my-auto py-md-5 my-md-5">
+    <div class="col-12 col-md col-lg-5">
+        <h1 class="display-1">
+            Blog
+        </h1>
+    </div>
+    <div class="col-12 col-md">
+        <hr>
+        <!-- <img src="{{ "/assets/img/btba_logo.png" | absolute_url }}" alt="BTBA logo" class="float-left p-4" width="150"> -->
+        <p class="">
+            It's a work in progress as of January 2019. We started by sharing career development insights and would
+            like to expand to other directions based on your input.
+        </p>
+    </div>
+</div>
+
+{% for post in site.posts %}
+<hr>
+<div>
+    <h3 class="mb-0 font-weight-bold">{{ post.title }}</h3>
+    <p>
+        By {{ post.author }} on {{ post.date | date: "%b, %Y" }}
+    </p>
+    <p class="mt-3"> 
+        {{ post.excerpt | truncate: 300, "" }} <a href="{{ post.url }}">...Read more</a>
+    </p>
+</div>
+{% endfor %}
