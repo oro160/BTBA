@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+<div class="container">
+  <div class="bg-img-placeholder w-100" style="height: 500px; background-image:url('{{ page.url | split: '/' | pop | join: '/' | append: '/img.jpg' }}');"></div>
+  <div class="row p-3">
+    <div class="col-12 col-sm-8">
+      <div class="p-2">
+        <h5 class="mb-1">{{ page.serie }}</h5>
+        <h3 class="mb-3">{{ page.name }}</h3>
+        {{ page.content | markdownify }}
+      </div>
+    </div>
+    <div class="col">
+      {% include event-summary.html data=page %}
+    </div>
+  </div>
+</div>

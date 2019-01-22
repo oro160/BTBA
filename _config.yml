@@ -8,3 +8,7 @@ plugins:
     - jekyll-redirect-from
 exclude: []
 repository: jekyll-test/Yu-AnChen
+
+collections:
+  events:
+    output: true
