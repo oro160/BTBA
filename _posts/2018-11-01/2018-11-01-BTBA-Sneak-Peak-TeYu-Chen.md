@@ -8,7 +8,7 @@ tags: ['Research & Development', 'Early Development']
 excerpt: I always thought that doing biological experiments, like sitting long hours in front of tissue culture hood, can be physically challenging. When I chat with Ryan, I realized that medicinal chemists also have heavy workload on the bench side. In pharmaceutical company, chemists are not allowed to be alone in the lab for safety reasons, so labs are closed on Saturdays and Sundays. Therefore, all the lab work has to be packed into 5 weekdays. To meet deadlines, lab work sometimes ends up extremely labor intensive.
 ---
 
-![image tooltip here](/blog/teyu_chen.jpg)
+![image tooltip here]({{ '/blog/teyu_chen.jpg' | absolute_url }})
 
 # TeYu Chen
 ## Medicinal Chemist

@@ -36,7 +36,7 @@ layout: default
         <div class="mx-0 my-2" style="background: white;">
             <div class="px-3 pt-3 pb-0">
                 <a href="{{ event.url }}">
-                    <div class="bg-img-placeholder w-100" style="background-image:url('{{ event.url | split: '/' | pop | join: '/' | append: '/img.jpg' | prepend: site.baseurl }}');"></div>
+                    <div class="bg-img-placeholder w-100" style="background-image:url('{{ event.url | split: '/' | pop | join: '/' | append: '/img.jpg' | absolute_url }}');"></div>
                 </a>
                 <h5 class="mb-1 mt-3">{{ event.serie }}</h5>
                 <h4 class="mb-0">

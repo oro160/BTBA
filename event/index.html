@@ -23,7 +23,7 @@ layout: default
 <div class="row mx-0 my-2" style="background: white;">
     <div class="col-12 col-sm-5 col-md-4 px-3 pt-3 pb-0 p-sm-3">
         <!-- <img class="" src="{{ event.url | split: '/' | pop | join: '/' | append: '/img.jpg' }}" alt="Card image cap"> -->
-        <div class="bg-img-placeholder w-100" style="background-image:url('{{ event.url | split: '/' | pop | join: '/' | append: '/img.jpg' | prepend: site.baseurl }}');">
+        <div class="bg-img-placeholder w-100" style="background-image:url('{{ event.url | split: '/' | pop | join: '/' | append: '/img.jpg' | absolute_url }}');">
 
         </div>
         {% include event-summary.html data=event %}
