@@ -1,6 +1,14 @@
 ---
 active: home
 layout: default
+
+carousel-items:
+    - img-url: assets/img/home_slides/01.jpg
+      text: 2016 Symposium
+    - img-url: assets/img/home_slides/02.jpg
+      text: 科技部座談 April 2017
+    - img-url: assets/img/home_slides/03.jpg
+      text: Taiwan Academic Panel, 2016 Symposium
 ---
 
 <!-- <div class="py-5">
@@ -9,7 +17,7 @@ layout: default
         Boston Taiwanese Biotechnology Association (BTBA) is a non-profit organization started in 2012 by a group of Taiwanese graduate students, postdocs and young professionals in the greater Boston area. Our goals are to foster individual career development, to enhance scientific collaborations, to facilitate interactions and to strengthen networking among academic and industrial bioscience communities in Taiwan and US.
     </h3>
 </div> -->
-<div class="row align-items-center py-auto my-auto py-md-5 my-md-5">
+<div class="row align-items-center py-auto mt-auto mb-5 py-md-5 my-md-5">
     <div class="col-12 col-md col-lg-5">
         <h1 class="display-1">
             Boston Taiwanese Biotechnology Association
@@ -26,6 +34,7 @@ layout: default
         </p>
     </div>
 </div>
+{% include slide-show.html data = page.carousel-items %}
 <div class="row">
     <div class="col-md-6">
         <hr class="w-100">
