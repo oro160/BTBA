@@ -36,7 +36,7 @@ layout: default
                 {{ event.content | truncate: 200 }}
             </p>
             <div class="text-right">
-                <a href="{{ event.url }}" class="btn btn-primary">Learn More</a>
+                <a href="{{ event.url | absolute_url }}" class="btn btn-primary">Learn More</a>
             </div>
         </div>
     </div>
@@ -44,33 +44,3 @@ layout: default
 
 </div>
 {% endfor %}
-<!-- 
-{% for event in site.events %}
-<div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="{{ event.url | split: '/' | pop | join: '/' | append: '/img.jpg' }}" alt="Card image cap">
-    <div class="card-footer row">
-        <div class="col-1"><i class="tim-icons icon-calendar-60"></i></div>
-        <div class="col">{{ event.date-and-time }}</div>
-
-        <div class="col-1"><i class="tim-icons icon-square-pin"></i></div>
-        <div class="col">{{ event.location }}</div>
-
-        <div class="col-1"><i class="tim-icons icon-sound-wave"></i></div>
-        <div class="col">{{ event.organizers }}</div>
-
-        <div class="col-1"><i class="tim-icons icon-simple-add"></i></div>
-        <div class="col">{{ event.attend | markdownify }}</div>
-    </div>
-    <div class="card-body">
-        <h5 class="card-title mb-1">{{ event.serie }}</h5>
-        <h3 class="card-title">{{ event.name }}</h3>
-        <p class="card-text">
-            {{ event.content | truncate: 200 }}
-        </p>
-        <div class="text-center">
-            <a href="{{ event.url }}" class="btn btn-primary text-center">Learn More</a>
-        </div>
-    </div>
-
-</div>
-{% endfor %} -->
