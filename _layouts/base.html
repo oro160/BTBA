@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-US" }}" class="h-100">
 
 <head>
     <meta charset='utf-8'>
@@ -15,7 +15,7 @@
     {% seo %}
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
     <header>
         {% include nav.html %}
         <div class="container mt-5 pt-5">
@@ -25,6 +25,9 @@
 
     {{ content }}
 
+    <div class="flex-grow-1"></div>
+
+    {% include footer.html %}
     {% if site.google_analytics %}
     <script>
         (function (i, s, o, g, r, a, m) {
