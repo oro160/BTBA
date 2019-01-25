@@ -13,13 +13,17 @@ $warning:       #ff8d72;
 $danger:        #fd5d93;
 $black:         $color2;
 
+// background-color
 $background-black:           $color3;
+// text-color
+$body-color:    $color2;
+
 $opacity-8:                  $color2;
 $font-size-dash:             0.95rem;
 $primary-states:             $color4;
 
-$primary:       darken($color4, 15%);
+// primary button and text
+$primary:       darken($color4, 12%);
 
-$card-black-background:      lighten($color5, 10%);
-
-$body-color:    $color2;
+// .bg-light
+$gray-500:      $color1;

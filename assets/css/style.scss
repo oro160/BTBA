@@ -8,6 +8,23 @@
 // @import "bootstrap/scss/bootstrap";
 @import "blk-design-system/assets/scss/blk-design-system";
 
+html {
+    font-size: 0.85rem;
+}
+
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1rem;
+    }
+}
+
+nav {
+    font-size: 1rem;
+}
+.navbar .navbar-brand {
+    font-size: 1.2rem;
+}
+
 ul li, ol li{
     color: $color2;
 }
@@ -18,9 +35,17 @@ ul li, ol li{
         color: $primary;
     }
 }
-// .container {
-//     @extend .col-5
-// }
+
+footer a {
+    color: $body-color;
+}
+
+.navbar .navbar-collapse .navbar-collapse-header .collapse-close .navbar-toggler {
+    color: $body-color;
+}
+.navbar .navbar-brand, .collapse-brand > a {
+    color: $body-color;
+}
 
 hr.short {
     width: 15%;
@@ -29,18 +54,6 @@ hr.short {
 
 .nav-link.active {
     border-bottom: solid 3px;
-}
-
-#about {
-    // @extend .row, .align-items-center, .py-auto, .my-auto, .py-md-5, .my-md-5;
-    // > :first-child {
-    //     @extend .display-1;
-    //     @extend .col-12, .col-md, .col-lg-5;
-    //     // col-12 col-md col-lg-5
-    // }
-    // > :nth-child(2) {
-    //     @extend .col-12, .col-md;
-    // }
 }
 
 .bg-img-placeholder {
