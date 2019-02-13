@@ -1,18 +1,19 @@
 ---
 layout: base
 ---
+<div class="container">
+  <div class="d-flex justify-content-center">
+    <article class="blog-post-single" id="{{page.title}}">
+      <div class="mb-3">
+        <a href="" class="font-italic font-weight-bold">
+          {{ page.serie }}
+        </a>
+        <p class="font-italic">
+          By {{ page.author }} on {{ page.date | date: "%b, %Y" }}
+        </p>
 
-<div class="container d-flex justify-content-center">
-  <article class="blog-post-single" id="{{page.title}}">
-    <div class="mb-3">
-      <a href="" class="font-italic font-weight-bold">
-        {{ page.serie }}
-      </a>
-      <p class="font-italic">
-        By {{ page.author }} on {{ page.date | date: "%b, %Y" }}
-      </p>
-
-    </div>
-    {{ content }}
-  </article>
+      </div>
+      {{ content }}
+    </article>
+  </div>
 </div>
