@@ -15,4 +15,19 @@
     </div>
 </div>
 
-Please consider supporting us as we strive to serve our community better each year.
+<div class="text-center">
+    <h4 class="">
+        Please consider supporting us as we strive to serve our community better each year.
+    </h4>
+
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="NAALX4S6AYYMW">
+        <input type="submit" class="btn btn-primary" value="SUPPORT BTBA">
+        <!-- Default donation image
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
+            alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/zh_XC/i/scr/pixel.gif" width="1" height="1"> 
+        -->
+    </form>
+</div>
