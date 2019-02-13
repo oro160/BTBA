@@ -1,7 +1,7 @@
 - label: About
   url: /about
-- label: Event
-  url: /event
+- label: Events
+  url: /events
 - label: Blog
   url: /blog
 - label: Symposium
@@ -10,5 +10,5 @@
   url: /support
 - label: Committee
   url: /committee
-- label: Link
-  url: /link
+- label: Links
+  url: /links
