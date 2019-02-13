@@ -19,7 +19,8 @@ title: about
 
 Each year we invite prominent figures from academia and biotech industries to share their achievements and personal stories with us. Our past keynote speakers include: 
 
-* 2017 Dr. Lily Jan （中研院院士葉公杼） and Dr. James C. Liao （現任中研院院長廖俊智）
+* 2018: Dr. David Y.H. Chang, Dr. Jui-Lien Huang, and Dr. Rachel Meyers
+* 2017: Dr. Lily Jan （中研院院士葉公杼） and Dr. James C. Liao （現任中研院院長廖俊智）
 * 2016: Dr. Jane Hsiao (Opko Health 副總裁許照惠博士) and Dr. Pan-Chyr Yang （前台灣大學校長楊泮池）
 * 2015: Dr. Yuan-Tsong Chen （中研院院士陳垣崇博士） and Dr. Nancy T. Chang （Tanox 創辦人唐南珊博士）
 * 2014: Dr. David Ho　（愛滋病雞尾酒療法發明人何大一博士）, Dr. Morgan Sheng （Genetech Neuroscience Department Vice President 沈華智博士）, and Dr. Jennie Shen （杜邦沈碧君博士）

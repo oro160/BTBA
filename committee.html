@@ -97,7 +97,11 @@ leaderships:
             {% for person in item[1] %}
             <div class="col-sm-6 row mb-2">
                 <div class="col-4">
+                    {% if person.image-url contains "http" %}
                     <img src="{{ person.image-url }}" class="img-fluid" alt="Responsive image">
+                    {% else %}
+                    <img src="{{ person.image-url | absolute_url }}" class="img-fluid" alt="Responsive image">
+                    {% endif %}
                 </div>
                 <div class="col-8">
                     <h4><strong>{{ person.name }} {{ person.ch-name }}</strong></h4>
