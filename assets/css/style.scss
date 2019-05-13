@@ -74,7 +74,7 @@ hr.short {
     }
 
     img {
-        max-width: 800px;
+        max-width: 300px;
         max-height: 400px;
         @extend .m-3, .float-right;
     }
@@ -97,5 +97,11 @@ hr.short {
         // font-weight: 800;
         color: $color2;
         @extend .display-1, .mb-2;
+    }
+
+    @include media-breakpoint-down(sm) {
+        img {
+            max-width: 200px;
+        }
     }
 }
