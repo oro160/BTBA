@@ -5,7 +5,7 @@ layout: default
 <div class="row align-items-center py-auto my-auto py-md-5 my-md-5">
     <div class="col-12 col-md col-lg-5">
         <h1 class="display-1">
-            Blog
+            Sneak Peak into the Biotech Industry
         </h1>
     </div>
     <div class="col-12 col-md">
@@ -21,8 +21,11 @@ layout: default
 {% for post in site.posts %}
 <hr>
 <div>
+    <a href="" class="font-weight-bold">
+        {{ post.serie }}
+    </a>
     <h3 class="mb-0 font-weight-bold">{{ post.title }}</h3>
-    <p>
+    <p class="font-italic">
         By {{ post.author }} on {{ post.date | date: "%b, %Y" }}
     </p>
     <p class="mt-3"> 
