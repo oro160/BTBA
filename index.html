@@ -3,10 +3,12 @@ active: home
 layout: default
 
 carousel-items:
-    - img-url: assets/img/home_slides/01.jpg
-      text: 2016 Symposium
+    - img-url: assets/img/home_slides/00.jpg
+      text: 2018 Symposium
     - img-url: assets/img/home_slides/02.jpg
       text: 科技部座談 April 2017
+    - img-url: assets/img/home_slides/01.jpg
+      text: 2016 Symposium
     - img-url: assets/img/home_slides/03.jpg
       text: Taiwan Academic Panel, 2016 Symposium
 ---
@@ -76,8 +78,11 @@ carousel-items:
         {% for post in site.posts %}
         <hr>
         <div>
+            <a href="" class="font-weight-bold">
+                {{ post.serie }}
+            </a>
             <h3 class="mb-0 font-weight-bold">{{ post.title }}</h3>
-            <p>
+            <p class="font-italic">
                 By {{ post.author }} on {{ post.date | date: "%b, %Y" }}
             </p>
             <p class="mt-3">
