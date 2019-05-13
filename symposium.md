@@ -12,7 +12,7 @@ title: symposium
         <hr>
         <!-- <img src="{{ "/assets/img/btba_logo.png" | absolute_url }}" alt="BTBA logo" class="float-left p-4" width="150"> -->
         <p class="">
-            Our 2018 BTBA symposium is going to be held on June 2-3 at Harvard University Science Center, Cambridge, MA. The registration is opening soon. Please check our [official 2018 BTBA symposium website](http://btbatw.org/2018) for more information about our keynote speakers and career panels.
+            Our annual symposiums attract more than 350 professionals and students every year from biology-related fields across the US. This two-day event is a great platform for attendees to network and engage in conversations about career development and trending topics in biotechnology. This year (2019), the symposium will be held on August 3-4 at Harvard University Northwest Science Building, Cambridge, MA. We are honored to have Dr. Seng H. Cheng, Senior Vice President and Chief Scientific Officer at Pfizer and Dr. Jenny P-Y Ting, William Rand Kenan Professor at University of North Carolina at Chapel Hill as our keynote speakers. The registration is opening soon. Please check our [2019 BTBA symposium website] for more information.   
         </p>
     </div>
 </div>
