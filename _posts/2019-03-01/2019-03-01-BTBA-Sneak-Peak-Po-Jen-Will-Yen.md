@@ -5,7 +5,7 @@ categories: [blog]
 title: Po-Jen (Will) Yen, Business Development
 author: Yi-Shan Chen
 tags: ['Business Development']
-excerpt: 'To people who would like to work in business development: doing an internship, joining a consulting club or taking classes in business school as early as possible will help to build up your resume and knowledge!'
+excerpt: 'As a scientist in Biotech/Pharma, Business Development to me is a function that usually doesn’t have a lot of interaction with researchers unless they need data from you but the decisions they make influence researchers the most.'
 ---
 
 ![image tooltip here]({{ '/blog/will_yen.jpg' | absolute_url }})
