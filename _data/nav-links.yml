@@ -1,14 +1,14 @@
 - label: About
-  url: /about
+  url: /about.html
 - label: Events
   url: /events
 - label: Blog
   url: /blog
 - label: Symposium
-  url: /symposium
+  url: /symposium.html
 - label: Support
-  url: /support
+  url: /support.html
 - label: Committee
-  url: /committee
+  url: /committee.html
 - label: Links
-  url: /links
+  url: /links.html
