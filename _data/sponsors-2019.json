@@ -1,0 +1,38 @@
+{
+    "sponsors": [{
+        "level": "string",
+        "name": "string",
+        "logoUrl": "taiwan_ministry_of_science_and_technology.png",
+        "link": "https://www.most.gov.tw/?l=en"
+    }, {
+        "level": "string",
+        "name": "string",
+        "logoUrl": "logo_teco_boston.png",
+        "link": "https://www.roc-taiwan.org/usbos_en/"
+    }, {
+        "level": "string",
+        "name": "string",
+        "logoUrl": "logo_biolegend.png",
+        "link": "https://www.biolegend.com/"
+    }, {
+        "level": "string",
+        "name": "string",
+        "logoUrl": "logo_scismic.png",
+        "link": "https://scismic.com/beta"
+    }, {
+        "level": "string",
+        "name": "string",
+        "logoUrl": "logo_taa_boston.png",
+        "link": "https://www.facebook.com/TAABoston.Page/"
+    }, {
+        "level": "string",
+        "name": "string",
+        "logoUrl": "itri.png",
+        "link": "https://www.itri.org.tw/"
+    }, {
+        "level": "string",
+        "name": "string",
+        "logoUrl": "logo_pfizer.png",
+        "link": "https://www.pfizer.com/"
+    }]
+}
