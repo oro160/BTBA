@@ -17,6 +17,20 @@ title: symposium
     </div>
 </div>
 
+<hr class="mt-5 mb-4" />
+## 2020 Virtual Symposium
+
+<div class="row">
+    {% assign years = "2020" | split: ',' %}
+    {% for year in years %}
+    <a class="col col-sm-8 col-md-6 col-lg-4" href="https://btbatw.org/{{ year }}/">
+        {% capture new_var %}{{ year }}.jpg{% endcapture %}
+        <img src="{{ '/assets/img/symposium_cover/symposium_pb-' | append: new_var | absolute_url }}" alt="{{ year }} Cover">
+        <h3 class="text-center btn-link">{{ year }}</h3>
+    </a>
+    {% endfor %}
+</div>
+
 
 <hr class="mt-5 mb-4" />
 ## Past Symposia
