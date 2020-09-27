@@ -59,7 +59,7 @@ team:
     <div class="col-md-8 order-1 order-md-2">
         <hr class="mt-5 mb-4" />
         <h2>Most Recent Episodes</h2>
-        {% for podcast in site.podcasts %}
+        {% for podcast in site.podcasts reversed %}
         <div>
             <p class="mb-0">{{ podcast.path | date: "%b %d, %Y" }}</p>
             <h4 class="mb-0">
