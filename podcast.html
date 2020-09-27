@@ -1,0 +1,80 @@
+---
+layout: default
+about-podcast: |
+    生技來一刻是由 Boston Taiwanese Biotechnology Association （BTBA）發行，Taipei Economic and Cultural Office (TECO) in Boston 贊助。旨在分享在美台灣生技人於職涯上的經歷和創見，盼透過和已在美國各地生技產業就業的學長姐的連線訪談，帶給即將入門生技行業的學子一個方向，提攜後進，並加強台美生技人之間彼此的連結，教學相長。
+
+    新手上路，請多指教，有任何建議歡迎寄信到：tmrbiotech.moments@gmail.com
+team:
+    - name: Yvonne Meng
+      ch-name: 孟憲薇
+      image-url: /assets/img/committee/yvonne-meng.jpg
+      position: Sr. Group Leader, Entrada Therapeutics
+      current: 
+    - name: Erica Cai
+      ch-name: 蔡佩珊
+      image-url: /assets/img/committee/erica-cai.jpg
+      position: Research Fellow, Joslin Diabetes Center
+      current:
+
+---
+<div class="row align-items-center py-auto my-auto py-md-5 my-md-5">
+    <div class="col-12 col-md col-lg-5">
+        <h1 class="display-1">
+            BTBA Podcast
+        </h1>
+    </div>
+    <div class="col-12 col-md">
+        <hr>
+        <!-- <img src="{{ "/assets/img/btba_logo.png" | absolute_url }}" alt="BTBA logo" class="float-left p-4" width="150"> -->
+        <p class="">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue mauris augue neque gravida in. Interdum consectetur libero id faucibus nisl tincidunt eget. 
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 order-2 order-md-1">
+        <hr class="mt-5 mb-4" />
+        <h2>Brought you by</h2>
+        {{ page.about-podcast | markdownify }}
+        <h3 class="mt-3 mb-2">Team</h3>
+
+        {% for person in page.team %}
+        <div class="row mb-3">
+            <div class="col-4">
+                <img src="{{ person.image-url | absolute_url }}" class="img-fluid w-100" alt="{{ person.name }}">
+            </div>
+            <div class="col-8">
+                <p><strong>{{ person.name }} {{ person.ch-name }}</strong></p>
+                <p>{{ person.position }}</p>
+                {% if person.current %}
+                <p>Current - {{ person.current }}</p>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+
+        <p></p>
+    </div>
+    <div class="col-md-8 order-1 order-md-2">
+        <hr class="mt-5 mb-4" />
+        <h2>Most Recent Episodes</h2>
+        {% for podcast in site.podcasts %}
+        <div>
+            <p class="mb-0">{{ podcast.path | date: "%b %d, %Y" }}</p>
+            <h4 class="mb-0">
+                <a href="{{ podcast.link }}">
+                    {{ podcast.title }}
+                </a>
+            </h4>
+            <p class="my-1"> 
+                {{ podcast.content | markdownify }} 
+            </p>
+            {{ podcast.embed }}
+            {% unless forloop.last %}
+                <hr />
+            {% endunless %}
+        </div>
+        {% endfor %}
+    </div>
+</div>

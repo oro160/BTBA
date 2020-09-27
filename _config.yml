@@ -12,3 +12,4 @@ repository: jekyll-test/Yu-AnChen
 collections:
   events:
     output: true
+  podcasts:
