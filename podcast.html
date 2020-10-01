@@ -8,14 +8,59 @@ team:
     - name: Yvonne Meng
       ch-name: 孟憲薇
       image-url: /assets/img/committee/yvonne-meng.jpg
+      role: Co-Executives
       position: Sr. Group Leader, Entrada Therapeutics
       current: 
     - name: Erica Cai
       ch-name: 蔡佩珊
       image-url: /assets/img/committee/erica-cai.jpg
+      role: Chief Administrator
       position: Research Fellow, Joslin Diabetes Center
       current:
+    - name: Tsai-Yi Lu
+      ch-name: 呂采宜 (Jo)
+      image-url: /assets/img/podcast/tsai-yi-lu-1-640x400.jpg
+      role: Chief Producer
+      position: Postdoctoral Research Fellow, Johns Hopkins University
+      current:
+    - name: Fan-En Chen 
+      ch-name: 
+      image-url: /assets/img/podcast/chen_fan-en.jpg
+      role: Co-Executives
+      position: PhD candidate, Johns Hopkins University BME
+      current:
+    - name: Margaret (Chia-Ying) Wey
+      ch-name: 魏嘉英
+      image-url: /assets/img/committee/margaret_wey.jpg
+      role: General Coordinator
+      position: Medical Scientist, AstraZeneca
+      current:
+    - name: Richard Liang
+      ch-name: 
+      image-url: /assets/img/podcast/Richard.jpg
+      role: General Coordinator
+      position: Biomarker Scientist, Denali Therapeutics
+      current:
+    - name: Zoey
+      ch-name: 
+      image-url: /assets/img/podcast/Zoe.jpg
+      role: Sound editor
+      position: Scientist, In Vivo Pharmacology, Editas Medicine      
+      current:
+    - name: Phoebe Tsai
+      ch-name: 
+      image-url: /assets/img/podcast/Phoebe_Tsai.jpg
+      role: Executive Secretary
+      position: Research Associate, Vertex Cell and Genetic Therapies | Vertex Pharmaceuticals
+      current:
+    - name: Amy Kao
+      ch-name: 
+      image-url: 
+      role: Cover design
+      position: 
+      current:
 
+summary: The main goal of the Advanced Podcast series is to expose Taiwanese-American biotech professionals to a variety of career opportunities and possibilities in biotech/pharmaceutical corporates for career advancement and development, and to encourage the younger generations of Taiwanese international students and postdocs the exchange of ideas for career planning and potentials.
 ---
 <div class="row align-items-center py-auto my-auto py-md-5 my-md-5">
     <div class="col-12 col-md col-lg-5">
@@ -27,7 +72,7 @@ team:
         <hr>
         <!-- <img src="{{ "/assets/img/btba_logo.png" | absolute_url }}" alt="BTBA logo" class="float-left p-4" width="150"> -->
         <p class="">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue mauris augue neque gravida in. Interdum consectetur libero id faucibus nisl tincidunt eget. 
+            {{ page.summary | markdownify }}
         </p>
     </div>
 </div>
@@ -35,26 +80,27 @@ team:
 <div class="row">
     <div class="col-md-4 order-2 order-md-1">
         <hr class="mt-5 mb-4" />
-        <h2>Brought you by</h2>
-        {{ page.about-podcast | markdownify }}
-        <h3 class="mt-3 mb-2">Team</h3>
-
+        <h2>Team</h2>
         {% for person in page.team %}
         <div class="row mb-3">
-            <div class="col-4">
-                <img src="{{ person.image-url | absolute_url }}" class="img-fluid w-100" alt="{{ person.name }}">
+            <div class="col-3">
+                {% if person.image-url %}
+                    <img src="{{ person.image-url | absolute_url }}" class="img-fluid w-100" alt="{{ person.name }}">
+                {% endif %}
             </div>
-            <div class="col-8">
+            <div class="col-9">
                 <p><strong>{{ person.name }} {{ person.ch-name }}</strong></p>
-                <p>{{ person.position }}</p>
+                <p>{{ person.role }}</p>
                 {% if person.current %}
                 <p>Current - {{ person.current }}</p>
                 {% endif %}
             </div>
         </div>
         {% endfor %}
-
-        <p></p>
+        <h2>Contact</h2>
+        <p>
+            tmrbiotech.moments@gmail.com
+        </p>
     </div>
     <div class="col-md-8 order-1 order-md-2">
         <hr class="mt-5 mb-4" />
