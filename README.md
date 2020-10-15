@@ -15,6 +15,12 @@ bundle install
 bundle exec jekyll serve
 ```
 
+### Build files for publication
+
+```bash
+bundle exec jekyll build
+```
+
 ### Add twitter bootstrap 4
 Refer to [this](https://simpleit.rocks/how-to-add-bootstrap-4-to-jekyll-the-right-way/#fnref:safe-mode)
 
