@@ -58,15 +58,15 @@ rvm use 3
 sudo gem install jekyll bundler
 
 cd /Path/To/Your/Sites/
-arch -x86_64 jekyll new <foldername> # Here I would suggest to use 'BTBA'
-cd <foldername> # Here I would suggest to use 'BTBA'
+arch -x86_64 jekyll new BTBA
+cd /Path/To/Your/Sites/BTBA
 
 bundle install
 bundle add webrick
 ```
 
 And then clone the BTBA site from this present git (https://github.com/oro160/BTBA.git)
-to /Path/To/Your/Sites/<foldername> # Here I would suggest to use 'BTBA'
+to /Path/To/Your/Sites/BTBA
 
 And then run the server
 ```bash
