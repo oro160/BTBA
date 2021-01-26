@@ -63,6 +63,7 @@ cd /Path/To/Your/Sites/BTBA
 
 bundle install
 bundle add webrick
+bundle update
 ```
 
 And then clone the BTBA site from this present git (https://github.com/oro160/BTBA.git)
