@@ -29,6 +29,10 @@ Refer to [this](https://simpleit.rocks/how-to-add-bootstrap-4-to-jekyll-the-righ
 
 
 
+
+
+
+
 ### For macOS Big Sur M1 Mac users:
 Have to install rails first:
 ```bash
