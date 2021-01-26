@@ -61,9 +61,10 @@ bundle install
 bundle add webrick
 ```
 
-And then clone the BTBA site from this present git: https://github.com/oro160/BTBA.git
+And then clone the BTBA site from this present git (https://github.com/oro160/BTBA.git)
 to /Path/To/Your/Sites/<foldername> # Here I would suggest to use 'BTBA'
 
+And then run the server
 ```bash
 bundle exec jekyll serve
 ```
