@@ -1,0 +1,74 @@
+I"»
+<div class="row align-items-center py-auto my-auto py-md-5 my-md-5">
+    <div class="col-12 col-md col-lg-5">
+        <h1 class="display-1">
+            Annual Symposium
+        </h1>
+    </div>
+    <div class="col-12 col-md">
+        <hr />
+        <!-- <img src="/assets/img/btba_logo.png" alt="BTBA logo" class="float-left p-4" width="150"> -->
+        <p class="">
+            Our annual symposiums attract more than 350 professionals and students every year from biology-related fields across the US. This two-day event is a great platform for attendees to network and engage in conversations about career development and trending topics in biotechnology. Please check each yearâ€™s symposium website for more information.  
+        </p>
+    </div>
+</div>
+
+<hr class="mt-5 mb-4" />
+
+<h2 id="past-symposia">Past Symposia</h2>
+
+<div class="row">
+    
+    
+    <a class="col-4 col-md-3 col-lg-2" href="https://btbatw.org/2020/">
+        
+        <img src="/assets/img/symposium_cover/symposium_pb-2020.jpg" alt="2020 Cover" />
+        <h3 class="text-center btn-link">2020</h3>
+    </a>
+    
+    <a class="col-4 col-md-3 col-lg-2" href="https://btbatw.org/2019/">
+        
+        <img src="/assets/img/symposium_cover/symposium_pb-2019.jpg" alt="2019 Cover" />
+        <h3 class="text-center btn-link">2019</h3>
+    </a>
+    
+    <a class="col-4 col-md-3 col-lg-2" href="https://btbatw.org/2018/">
+        
+        <img src="/assets/img/symposium_cover/symposium_pb-2018.jpg" alt="2018 Cover" />
+        <h3 class="text-center btn-link">2018</h3>
+    </a>
+    
+    <a class="col-4 col-md-3 col-lg-2" href="https://btbatw.org/2017/">
+        
+        <img src="/assets/img/symposium_cover/symposium_pb-2017.jpg" alt="2017 Cover" />
+        <h3 class="text-center btn-link">2017</h3>
+    </a>
+    
+    <a class="col-4 col-md-3 col-lg-2" href="https://btbatw.org/2016/">
+        
+        <img src="/assets/img/symposium_cover/symposium_pb-2016.jpg" alt="2016 Cover" />
+        <h3 class="text-center btn-link">2016</h3>
+    </a>
+    
+    <a class="col-4 col-md-3 col-lg-2" href="https://btbatw.org/2015/">
+        
+        <img src="/assets/img/symposium_cover/symposium_pb-2015.jpg" alt="2015 Cover" />
+        <h3 class="text-center btn-link">2015</h3>
+    </a>
+    
+    <a class="col-4 col-md-3 col-lg-2" href="https://btbatw.org/2014/">
+        
+        <img src="/assets/img/symposium_cover/symposium_pb-2014.jpg" alt="2014 Cover" />
+        <h3 class="text-center btn-link">2014</h3>
+    </a>
+    
+    <a class="col-4 col-md-3 col-lg-2" href="https://btbatw.org/2013/">
+        
+        <img src="/assets/img/symposium_cover/symposium_pb-2013.jpg" alt="2013 Cover" />
+        <h3 class="text-center btn-link">2013</h3>
+    </a>
+    
+</div>
+
+:ET
